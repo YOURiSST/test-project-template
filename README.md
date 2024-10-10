@@ -8,7 +8,7 @@
 
 1. Клонируйте репозиторий с подмодулями:
    ```bash
-   git clone --recurse-submodules https://github.com/YOURiSST/test-project-template.git
+   git clone --recurse-submodules git@github.com:YOURiSST/test-project-template.git
 
 2. Перейдите в директорию проекта
    ```bash
