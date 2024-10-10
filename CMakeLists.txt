@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(TEST_PROJECT VERSION 0.1)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+enable_testing()
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+add_subdirectory(third_party/googletest )
+add_subdirectory(src)
+add_subdirectory(tests)
