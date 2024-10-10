@@ -12,7 +12,7 @@
 
 2. Перейдите в директорию проекта
    ```bash
-   cd test_project
+   cd test-project-template/
    ```
 
 3. Соберите и прогоните тесты:
