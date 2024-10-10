@@ -7,8 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 enable_testing()
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_subdirectory(third_party/googletest )
+add_subdirectory(third_party/googletest)
 add_subdirectory(src)
 add_subdirectory(tests)
